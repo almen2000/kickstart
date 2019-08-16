@@ -82,7 +82,7 @@ contract Campaign {
         return (
             minimumContribution,
             this.balance,
-            request.length,
+            requests.length,
             approversCount,
             manager
         );
